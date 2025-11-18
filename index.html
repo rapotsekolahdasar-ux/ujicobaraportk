@@ -1925,7 +1925,7 @@ table tr {
 
             let elemenHtml = '';
             elemenKeys.forEach(e => {
-                const deskripsi = sum[e.key] || 'Deskripsi belum diisi/dibuat.';
+                const deskripsi = sum[e.key] || '';
                 const photoHtml = getPhotoHtml(data, e.key);
                 
                 elemenHtml += `
@@ -2341,5 +2341,6 @@ const logoHtml = `<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BA
   </script>
 </body>
 </html>
+
 
 
